@@ -1,0 +1,9 @@
+----------------------------------------------------------------------------------
+	Node is Managed by Puppet Server: server.puppet.com
+----------------------------------------------------------------------------------
+Welcome to host : <%=@hostname%>
+My IP Deatils   : <%=@ipaddress%>
+I Belogs to OS  : <%=@operatingsystem%>
+OS ARCH 	    : <%=@os['architecture']%>
+Running Since   : <%=@uptime%>
+#My DNS Name    : <%=@fqdn%>
